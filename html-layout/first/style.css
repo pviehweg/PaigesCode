@@ -6,33 +6,34 @@ html, body {
 }
 
 .header {
-	background-color: #333333;
-	height: 10%;
+	background-color: #444444;
+	height: 17%;
 	float: top;
 }
 
 .rside {
-	background-color: #666666;
-	width: 15%;
+	background-color: #D8D8D8;
+	width: 16%;
     float: right;
-    height: 150px;
+    height: 100%;
 }
 
 .lside {
-	background-color: #666666;
-	width: 15%;
+	background-color: #D8D8D8;
+	width: 16%;
 	float: left;
-	height: 150px;
+	height: 100%;
 }
 
 .footsie {
 	background-color: #222222;
 	float: center;
+	height: 8%;
 }
 
 .middle {
-	background-color: #999999;
+	background-color: #EFEFEF;
 	float: center;
-	height: 150px;
-	width: 70%;
+	height: 92%;
+	width: 100%;
 }
