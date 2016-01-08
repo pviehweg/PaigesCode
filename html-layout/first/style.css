@@ -1,0 +1,38 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background-color: #333333;
+	height: 10%;
+	float: top;
+}
+
+.rside {
+	background-color: #666666;
+	width: 15%;
+    float: right;
+    height: 150px;
+}
+
+.lside {
+	background-color: #666666;
+	width: 15%;
+	float: left;
+	height: 150px;
+}
+
+.footsie {
+	background-color: #222222;
+	float: center;
+}
+
+.middle {
+	background-color: #999999;
+	float: center;
+	height: 150px;
+	width: 70%;
+}
