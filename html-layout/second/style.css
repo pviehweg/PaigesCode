@@ -1,0 +1,34 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.lside {
+	background-color: #4A90E2;
+	width: 33.3%;
+    float: left;
+    height: 100%;
+}
+
+.rside {
+	background-color: #B8E986;
+	width: 33.3%;
+	float: right;
+	height: 75%;
+}
+
+.middle {
+	background-color: #50E3C2;
+	float: center;
+	height: 100%;
+	width: 100%;
+}
+
+.redBox {
+	background-color: #FF0000;
+	height: 25%;
+	width: 33.3%;
+	float: right;
+}
