@@ -7,28 +7,30 @@ html, body {
 
 .lside {
 	background-color: #4A90E2;
-	width: 33.3%;
-    float: left;
-    height: 100%;
-}
-
-.rside {
-	background-color: #B8E986;
-	width: 33.3%;
-	float: right;
-	height: 75%;
+	height: 800px;
+	float: left;
+	width: 400px;
 }
 
 .middle {
 	background-color: #50E3C2;
-	float: center;
-	height: 100%;
-	width: 100%;
+	height: 800px;
+	float: left;
+	width: 400px;
+}
+
+.rside {
+	background-color: #B8E986;
+	height: 600px;
+	float: left;
+	width: 400px;
 }
 
 .redBox {
 	background-color: #FF0000;
-	height: 25%;
-	width: 33.3%;
-	float: right;
-}
+	float: left;
+	float: auto;
+	
+	height: 200px;
+	width: 400px;
+	}
