@@ -46,7 +46,7 @@ html, body {
 	font-family: Arial ;
 	color: black;
 	background-color: white;
-	font-size: 23px;
+	font-size: 28px;
 	margin-bottom: 20px;
 }
 
@@ -54,48 +54,45 @@ html, body {
 }
 
 .thirdSection {
-	height: 300px;
-	display: inline-flex;
-	flex-direction: row;
+	height: 400px;
+	display: flex; 
 	width: 900px;
-	border: 1px solid black;
+	margin-bottom: 20px;
 }
 
 .bigRed {
 	background-color: #D0021B;
-	height: 300px;
-	display: inline-flex;
-	flex-grow: 3; 
-	
+	/*height: 400px;*/
+	width: 280px;
+	flex-grow: 1;		
 }
 
 .bigBlue {
 	background-color: #4A90E2;
-	height: 300px;
-	display: inline-flex;
-	flex-grow: 12;
+	/*height: 400px;*/
+	width: 620px;
+	flex-grow: 2;
 }
 
-.bottomSection {
-	height: 150px;
-	width: 900px;
-
-}
 
 .longBlue {
 	background-color: #4A90E2;
+	height: 170px;
+	width: 900px;
 }
 
 .redCovered {
 	background-color: #D0021B;
 	width: 300px;
+	height: 170px;
 	margin-left: 600px;
 }
 
 .grayTop {
 	background-color: #4A4A4A;
-	width: 270px;
-	margin-left: 615px;
+	width: 220px;
+	height: 170px;
+	margin-left: 40px;
 }
 
 
