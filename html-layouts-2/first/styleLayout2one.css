@@ -12,49 +12,74 @@ html, body {
 	padding: 20px;
 }
 
-.topsection {
+.topSection {
 	height: 150px;
+	width: 900px;
+	display: inline-block;
+	margin-bottom: 20px;
 }
 
 .redBox {
 	background-color: #D0021B;
+	width: 280px;
+	height: 150px;
+	display: inline-block;
+	margin-right: 20px;
 }
 
 .blueBox {
 	background-color: #4A90E2;
+	width: 280px;
+	height: 150px;
+	display: inline-block;
+	margin-right: 20px;
 }
 
 .graybox {
-	background-color: #4A4A4A
+	background-color: #4A4A4A;
+	width: 280px;
+	height: 150px;
+	display: inline-block;
 }
 
 .paragraphs {
-	font-family: arial;
+	font-family: Arial ;
 	color: black;
 	background-color: white;
+	font-size: 23px;
+	margin-bottom: 20px;
 }
 
 .words {
-
 }
 
 .thirdSection {
 	height: 300px;
-	display: flex;
+	display: inline-flex;
+	flex-direction: row;
+	width: 900px;
+	border: 1px solid black;
 }
 
 .bigRed {
 	background-color: #D0021B;
-	flex: 3; 
+	height: 300px;
+	display: inline-flex;
+	flex-grow: 3; 
+	
 }
 
 .bigBlue {
 	background-color: #4A90E2;
-	flex: 9;
+	height: 300px;
+	display: inline-flex;
+	flex-grow: 12;
 }
 
 .bottomSection {
 	height: 150px;
+	width: 900px;
+
 }
 
 .longBlue {
