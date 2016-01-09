@@ -5,32 +5,39 @@ html, body {
 	margin: 0;
 }
 
+div {
+	float: left;
+}
+
 .lside {
 	background-color: #4A90E2;
-	height: 800px;
+	height: 900px;
 	float: left;
-	width: 400px;
+	width: 300px;
 }
 
 .middle {
 	background-color: #50E3C2;
-	height: 800px;
+	height: 900px;
 	float: left;
-	width: 400px;
+	width: 300px;
 }
 
 .rside {
 	background-color: #B8E986;
-	height: 600px;
+	height: 900px;
 	float: left;
-	width: 400px;
-}
+	width: 300px;
+	}
 
 .redBox {
-	background-color: #FF0000;
-	float: left;
-	float: auto;
-	
-	height: 200px;
-	width: 400px;
+	background-color: #D0021B;
+	height: 125px;
+	width: 300px;
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 75px;
+	margin-top: 700px;
 	}
