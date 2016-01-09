@@ -1,0 +1,41 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/* Font colors: red: #D0021B  Blue: #4A90E2 Gray: #4A4A4A */ 
+
+.header {
+	background-color: #444444;
+	height: 17%;
+	float: top;
+}
+
+.rside {
+	background-color: #D8D8D8;
+	width: 16%;
+    float: right;
+    height: 100%;
+}
+
+.lside {
+	background-color: #D8D8D8;
+	width: 16%;
+	float: left;
+	height: 100%;
+}
+
+.footsie {
+	background-color: #222222;
+	float: center;
+	height: 8%;
+}
+
+.middle {
+	background-color: #EFEFEF;
+	float: center;
+	height: 92%;
+	width: 100%;
+}
