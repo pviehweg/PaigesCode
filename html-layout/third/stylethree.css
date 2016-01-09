@@ -11,7 +11,7 @@ div {
 
 p {
 	padding: 20px;
-	text-align: center;
+	text-align: left;
 	height: 100px;
 	width: 800px;
 	margin-left: 20px;
@@ -37,6 +37,7 @@ p {
 
 .whitebar {
 	background-color: #FFFFFF;
+	height: 200px;
 	;
 }
 
