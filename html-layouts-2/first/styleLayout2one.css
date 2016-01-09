@@ -7,35 +7,70 @@ html, body {
 
 /* Font colors: red: #D0021B  Blue: #4A90E2 Gray: #4A4A4A */ 
 
-.header {
-	background-color: #444444;
-	height: 17%;
-	float: top;
+.container {
+	width: 900px;
+	padding: 20px;
 }
 
-.rside {
-	background-color: #D8D8D8;
-	width: 16%;
-    float: right;
-    height: 100%;
+.topsection {
+	height: 150px;
 }
 
-.lside {
-	background-color: #D8D8D8;
-	width: 16%;
-	float: left;
-	height: 100%;
+.redBox {
+	background-color: #D0021B;
 }
 
-.footsie {
-	background-color: #222222;
-	float: center;
-	height: 8%;
+.blueBox {
+	background-color: #4A90E2;
 }
 
-.middle {
-	background-color: #EFEFEF;
-	float: center;
-	height: 92%;
-	width: 100%;
+.graybox {
+	background-color: #4A4A4A
 }
+
+.paragraphs {
+	font-family: arial;
+	color: black;
+	background-color: white;
+}
+
+.words {
+
+}
+
+.thirdSection {
+	height: 300px;
+	display: flex;
+}
+
+.bigRed {
+	background-color: #D0021B;
+	flex: 3; 
+}
+
+.bigBlue {
+	background-color: #4A90E2;
+	flex: 9;
+}
+
+.bottomSection {
+	height: 150px;
+}
+
+.longBlue {
+	background-color: #4A90E2;
+}
+
+.redCovered {
+	background-color: #D0021B;
+	width: 300px;
+	margin-left: 600px;
+}
+
+.grayTop {
+	background-color: #4A4A4A;
+	width: 270px;
+	margin-left: 615px;
+}
+
+
