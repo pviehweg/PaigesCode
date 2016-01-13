@@ -1,3 +1,4 @@
+
 html, body {
 	height: 100%;
 	width: 100%;
@@ -5,3 +6,72 @@ html, body {
 	margin: 0;
 }
 
+.container {
+	font-family: Arial;	
+	max-width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.intro {
+	font-size: 20px;
+	margin:0 auto;
+	text-align: justify;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+.p3 {
+	float: right;
+}
+
+.logos {
+	display: block;
+	margin: 0 auto;
+	clear: both;
+	width: auto;
+	text-align: justify;
+}
+
+.icon {
+	max-width: 150px;
+	max-height: 150px;	
+	display: inline-block;
+	margin: 30px;
+
+}
+
+.icon a img {
+	width: 100%;
+	height: auto;
+}
+
+.footsie {
+	font-size: 12px;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	clear: both;
+}
+
+.bottomWords {
+	text-align: center;
+	font-size: 12px;
+}
+
+.linkBox {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.links {
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+	margin: 0 auto;
+	display: inline-block;
+}
